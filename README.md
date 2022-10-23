@@ -1,15 +1,28 @@
 # Make Change Project
 
 ### Description
+
+-The process of creating this Java application help put into practice fundamentals of object-oriented based programming through Java. There is no real world application of this program and it was created for educational purposes.
+
+It is a basic cash register application that will:
+
 1. Ask for an Item Price
 2. Ask for Amount Tendered
-3. Will print
-  1. exact change if exact change is given
-  2. error if not enough money given
-  3. if change is needed, will suggest the amount of each type to be given in the correct english syntax
+3. Print
+    1. exact change if exact change is given
+    2. error if not enough money given
+    3. if change is needed, will suggest the amount of each type to be given in the correct english syntax
       1. for example pennies and penny will print correctly
-
           1. Amount: 1.98 Tendered: 5.0 Results: 3 Two Dollar Bills, 2 Pennies. `
+
+- This program uses 3 methods.
+
+method 1: Counts each Domination
+
+method 2: Changes the remaining change amount
+
+method 3: prints our results depending on the value of the int variable represent each of my money types
+
 
 
 
