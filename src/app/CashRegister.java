@@ -30,9 +30,9 @@ public class CashRegister {
 
 			double price = sc.nextDouble();
 
-		
-			System.out.println();
-			System.out.println("What is the amount of money tendered? \n");
+					
+			
+			System.out.println("\nWhat is the amount of money tendered? \n");
 
 			double moneyIn = sc.nextDouble();
 			
@@ -60,7 +60,7 @@ public class CashRegister {
 			else if (changeAmount == 0.00) {
 				System.out.print(" Exact Change");
 
-				System.out.println("\n Enter [ 1 ] for another transaction");
+				System.out.println("\nEnter [ 1 ] for another transaction");
 
 				String keepGoing = sc.nextLine();
 				
